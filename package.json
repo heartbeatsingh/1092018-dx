@@ -1,0 +1,23 @@
+{
+  "name": "daxx",
+  "version": "1.0.0",
+  "description": "daxx wallet",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Satnam Singh",
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express-validator": "^5.3.0",
+    "joi": "^13.6.0",
+    "pg": "^7.4.3",
+    "sequelize": "^4.38.0",
+    "supertest": "^3.1.0",
+    "web3": "^1.0.0-beta.35",
+    "web3-eth-accounts": "^1.0.0-beta.36"
+  }
+}
